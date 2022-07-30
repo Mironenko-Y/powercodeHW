@@ -13,3 +13,11 @@ while (b <= 100) {
   }
   b++;
 }
+//3
+let c = 0;
+while (c <= 100) {
+  if (c % 3 !== 0) continue;{
+    console.log(c);
+  }
+  c++;
+}
